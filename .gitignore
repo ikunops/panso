@@ -1,0 +1,37 @@
+# 数据库（索引/收藏/游标）
+*.db
+*.db-wal
+*.db-shm
+
+# 本地配置（含你自己的实例地址）
+search_sources.json
+
+# 指纹/抓取缓存
+content_fp_*.json
+tg_*.json
+*_results.json
+ai_*.json
+_all_channels.json
+*.log
+
+# 导出的资源清单
+*.tsv
+*.csv
+*.xlsx
+课程网盘资源清单.txt
+闲鱼热门资料清单.txt
+AI资源清单*.txt
+
+# 临时与调试产物
+__pycache__/
+*.pyc
+_archive*/
+_archives/
+_publish/
+gui-test-screenshots/
+.pwrun/
+_*.json
+_*.py
+*.png
+*.jpg
+*.jpeg

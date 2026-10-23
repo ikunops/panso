@@ -1,0 +1,15 @@
+{
+  "pansou": {
+    "name": "pansou（自建）",
+    "kind": "pansou",
+    "enabled": true,
+    "url": "http://YOUR_HOST:8888/api/search?kw={kw}",
+    "desc": "自建 pansou 实例，聚合 70+ 插件与 120+ TG 频道"
+  },
+  "tg": {
+    "name": "Telegram 频道",
+    "kind": "tg",
+    "enabled": true,
+    "limit_ch": 20
+  }
+}
